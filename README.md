@@ -1,8 +1,8 @@
-Pastas contendo arquivos de treino das atividades e cursos da formação Python Developer da DIO.
+Aqui você encontrar pastas contendo todos os arquivos de estudos bem como documentação da Formação Python Developer da escola DIO.
 
-Por JoãoPedro Martins
+Por João Pedro Martins
 
-LinkedIn --> https://www.linkedin.com/in/jo%C3%A3o-pedro-martins-945b35226/
+LinkedIn --> https://www.linkedin.com/in/jo%C3%A3o-pedro-martins-945b35226/<br/>
 Instagram --> https://www.instagram.com/martinsjp53/
 
 "Falar é fácil, mostre-me o código!"

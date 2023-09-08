@@ -29,6 +29,7 @@ Ordem em que a precedência acontece:
 São operadores que servem para comparar dois valores.
 
 *Igualdade (==)*
+    <br/>
     saldo = 450
     saque = 200
 
@@ -36,6 +37,7 @@ São operadores que servem para comparar dois valores.
     >>> False
 
 *Diferença (!=)*
+    <br/>
     saldo = 450
     saque = 200
 
@@ -43,6 +45,7 @@ São operadores que servem para comparar dois valores.
     >>> True
 
 *Maior/Maior Igual (>/>=):*
+    <br/>
     saldo = 450
     saque = 200
 
@@ -51,7 +54,8 @@ São operadores que servem para comparar dois valores.
     print(saldo >= saque)
     >>> True
 
-*Menor/Menor Igual (</<=):*
+*Menor/Menor Igual (</<=):* 
+    <br/>
     saldo = 450
     saque = 200
 
@@ -67,12 +71,14 @@ São operadores que servem para comparar dois valores.
 São operadores utilizados para definir o valor inicial ou sobrescrever o valor de um variáve.
 
 *Atribuição Simples (=)*
+    <br/>
     saldo = 500
 
     print(saldo)
     >>>500
 
 *Atribuição com Adição (+=)*
+    <br/>
     saldo = 500
     saldo += 200
 
@@ -80,13 +86,15 @@ São operadores utilizados para definir o valor inicial ou sobrescrever o valor 
     >>>700
 
 *Atribuição com Subtração (-=)*
+    <br/>
     saldo = 500
     saldo -= 100
 
     print(saldo)
     >>>600
 
-*Atribuição com Multiplicação ( *= )*
+*Atribuição com Multiplicação (Não deu para inserir o simbolo aqui)*
+    <br/>
     saldo = 500
     saldo *= 2
 
@@ -94,6 +102,7 @@ São operadores utilizados para definir o valor inicial ou sobrescrever o valor 
     >>>1000
 
 *Atribuição com Divisão Float (/=)*
+    <br/>
     saldo = 500
     saldo /= 5
 
@@ -101,6 +110,7 @@ São operadores utilizados para definir o valor inicial ou sobrescrever o valor 
     >>>100.0
 
 *Atribuição com Divisão Inteiro (//=)*
+    <br/>
     saldo = 500
     saldo //= 5
 
@@ -108,13 +118,15 @@ São operadores utilizados para definir o valor inicial ou sobrescrever o valor 
     >>>100
 
 *Atribuição com Módulo (%=)*
+    <br/>
     saldo = 500
     saldo %= 480
 
     print(saldo)
     >>>20
 
-*Atribuição com Exponeciação ( Não deu para inserir o simbolo aqui )*
+*Atribuição com Exponeciação (Não deu para inserir o simbolo aqui)*
+    <br/>
     saldo = 500
     saldo **= 2
 
