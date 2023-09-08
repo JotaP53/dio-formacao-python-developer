@@ -3,7 +3,8 @@
 ----------------------------------------------------------------
 ### Operadores Aritméticos
 
-**O que são?**
+**O que são e para que servem?**
+<br/>
 Operadores que executam operações matemáticas como adição, subtração, multiplicação e divisão.
 * Adição: +
 * Subtração: -
@@ -26,6 +27,7 @@ Ordem em que a precedência acontece:
 ### Operadores de Comparação
 
 **O que são e para que servem?**
+<br/>
 São operadores que servem para comparar dois valores.
 
 *Igualdade (==)*
@@ -68,6 +70,7 @@ São operadores que servem para comparar dois valores.
 ### Operadores de Atribuição
 
 **O que são e para que servem?**
+<br/>
 São operadores utilizados para definir o valor inicial ou sobrescrever o valor de uma variável.
 
 *Atribuição Simples (=)*
@@ -137,6 +140,7 @@ São operadores utilizados para definir o valor inicial ou sobrescrever o valor 
 ### Operadores Lógicos
 
 **O que são e para que servem?**
+<br/>
 São operadores utilizados em conjunto com os operados de comparação para montar uma operação lógica. Quando um operador de comparação é utilizado, o resultado é um booleano, dessa forma podemos combinar operadores de comparação com os operadores lógios, exemplo:<br/>
 
 *op_comparacao + op_logico + op_comparacao...N...*
@@ -210,6 +214,7 @@ Lembrar que Parênteses tem uma função de determinar a precedência, aqui ele 
 ### Operadores de Identidade
 
 **O que são e para que servem?**
+<br/>
 São operadores utilizados para comparar se os dois objetos testados ocupam a mesma posição na memória.<br/>
 
 Exemplo:
@@ -232,6 +237,7 @@ Exemplo:
 ### Operadores de Associação
 
 **O que são e para que servem?**
+<br/>
 São operadores utilizados para verificar se um objeto está presente em uma sequência.<br/>
 
 Exemplo:
