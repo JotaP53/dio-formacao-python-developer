@@ -68,7 +68,7 @@ São operadores que servem para comparar dois valores.
 ### Operadores de Atribuição
 
 **O que são e para que servem?**
-São operadores utilizados para definir o valor inicial ou sobrescrever o valor de um variáve.
+São operadores utilizados para definir o valor inicial ou sobrescrever o valor de uma variável.
 
 *Atribuição Simples (=)*
     <br/>
@@ -136,8 +136,116 @@ São operadores utilizados para definir o valor inicial ou sobrescrever o valor 
 ----------------------------------------------------------------
 ### Operadores Lógicos
 
+**O que são e para que servem?**
+São operadores utilizados em conjunto com os operados de comparação para montar uma operação lógica. Quando um operador de comparação é utilizado, o resultado é um booleano, dessa forma podemos combinar operadores de comparação com os operadores lógios, exemplo:<br/>
+
+*op_comparacao + op_logico + op_comparacao...N...*
+
+Exemplos:
+<br/>
+    saldo = 1000
+    saque = 200
+    limite = 100
+    
+    saldo >= saque
+    >>> True
+
+    saque <= limite
+    >>> False
+
+*Operador E (and)*
+<br/>
+    saldo = 1000
+    saque = 200
+    limite = 100
+
+    saldo >= saque and saque <= limite
+    >>> False
+
+*Operador OU (or)*
+<br/>
+    saldo = 1000
+    saque = 200
+    limite = 100
+
+    saldo >= saque or saque <= limite
+    >>> True
+
+Para que AND retorne TRUE, todas as expressões precisam ser VERDADEIRAS
+Para que OR retorne TRUE, apenas uma das expressões precisa ser VERDADEIRA
+
+*Operador Negação (not)*
+<br/>
+    contatos_emergencia = []
+
+    not 1000 > 1500
+    >>> True
+
+    not contatos_emergencia
+    >>> True
+
+    not "saque 1500;"
+    >>> False
+
+    not ""
+    >>> True
+
+*Operador Parênteses*
+<br/>
+
+Lembrar que Parênteses tem uma função de determinar a precedência, aqui ele cumpre a mesma função.
+<br/>
+    saldo = 1000
+    saque = 250
+    limite = 200
+    conta_especial = True
+
+    saldo >= saque and saque <= limite or conta_especial and saldo >= saque
+    >>> True
+
+    (saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque)
+    >>> True
+
 ----------------------------------------------------------------
 ### Operadores de Identidade
 
+**O que são e para que servem?**
+São operadores utilizados para comparar se os dois objetos testados ocupam a mesma posição na memória.<br/>
+
+Exemplo:
+<br/>
+
+    curso = "Curso de Python"
+    nome_curso = curso
+    saldo, limite = 200, 200
+
+    curso is nome_curso
+    >>> True
+
+    curso is not nome_curso
+    >>> False
+
+    saldo is limite
+    >>> True
+
 ----------------------------------------------------------------
 ### Operadores de Associação
+
+**O que são e para que servem?**
+São operadores utilizados para verificar se um objeto está presente em uma sequência.<br/>
+
+Exemplo:
+<br/>
+
+    curso = "Curso de Python"
+    frutas = ["laranja", "uva", "limão"]
+    saques = [1500, 100]
+
+    "Python" in curso
+    >>> True
+
+    "maçã" not in frutas
+    >>> True
+
+    200 in saques
+    >>> False
